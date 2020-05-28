@@ -49,6 +49,7 @@ p:first-letter{
   font-size: 52px;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 3px;
+  font-weight: 500;
 
 }
 
@@ -217,4 +218,14 @@ hr{
   margin-bottom: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
+}
+
+.esb{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -35px;
+  margin-bottom: 20px;
+  letter-spacing: normal;
+  line-height: 1.5;
 }
