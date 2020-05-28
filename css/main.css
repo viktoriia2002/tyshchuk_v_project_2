@@ -3,14 +3,218 @@ body {
   padding: 0;
 }
 
-.container{
+p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
 
+}
+
+p:first-letter{
+  font-size: 26px;
+  font-weight: 400;
+  color: #4B1414;
+}
+
+.container{
   width: 940px;
   margin: 0 auto;
+
+}
+
+#maincontent{
+  width: 800px;
+  margin: 0 auto;
+
+
+}
+
+.imgHeader{
+  background: url(../images/beer.jpg) no-repeat bottom;
+  width: 870px;
+  height: 460px;
+  opacity: 0.8;
+  margin: 0 auto;
+}
+
+.beer{
+  text-align: center;
+  height: 235px;
+  width: 940px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 52px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
+
 }
 
 .mainHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.hidden{
+  display: none;
+}
+
+.line{
+  border-left: 2px solid #4B1414;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.line_corona{
+  border-left: 2px solid #4B1414;
+  margin-left: 20px;
+  padding-left: 23px;
+}
+
+
+.guiness{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intro{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #6F2B2B;
+}
+
+.brewers{
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  color: #6F2B2B;
+}
+
+.budweiser{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.corona{
+  margin-top: 25px;
+}
+
+.corona::first-line{
+  font-size: 18px;
+}
+
+hr{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 2px;
+  color: #4B1414;
+  background-color: #4B1414;
+  border: none;
+
+}
+
+.writers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.harpoon{
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  color: #6F2B2B;
+}
+
+.line_example{
+  margin-left: 50px;
+  padding-left: 20px;
+
+}
+
+.bull{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.line_bull{
+  border-left: 2px solid #4B1414;
+  margin-left: 60px;
+  padding-left: 20px;
+}
+
+.line_bull:first-line{
+  font-size: 18px;
+}
+
+.heikenen{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.line_heikenen{
+
+  border-right: 2px solid #4B1414;
+  margin-right: 50px;
+  padding-right: 20px;
+}
+
+.line_heikenen::first-line{
+  font-size: 18px;
+}
+
+.line_wolverine{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  color: #6F2B2B;
+}
+
+.labatts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.labatts p:first-line{
+  font-size: 18px;
+}
+
+.line_cup{
+  border-left: 2px solid #4B1414;
+  margin-left: 20px;
+  padding-left: 20px;
+
+}
+
+.concl{
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #6F2B2B;
+}
+
+.hefeweizen{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
