@@ -1,0 +1,16 @@
+body {
+  margin: 0 ;
+  padding: 0;
+}
+
+.container{
+
+  width: 940px;
+  margin: 0 auto;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
